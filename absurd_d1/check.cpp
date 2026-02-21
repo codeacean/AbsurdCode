@@ -20,8 +20,8 @@ int hard(const std::string& str) {
             temp++;
         } else if (str[i] == ')') {
             temp--;
-        }
-        if (temp < 0) {
+            }
+            if (temp < 0) {
             return i + 1;
         }
     }
