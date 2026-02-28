@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-
 using namespace std;
 
 void opeartors() {
@@ -11,9 +10,9 @@ void opeartors() {
 }
 
 void strings() {
-    string prompt;
-    cout << "What's the prompt bro?";
-    getline(cin, prompt);
+    string name;
+    cout << "Name?";
+    getline (cin, name);
 }
 
 int main() {
